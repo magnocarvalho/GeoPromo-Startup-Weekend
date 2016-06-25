@@ -5,6 +5,9 @@
   -->
 
     <head>
+        <link rel="stylesheet" type="text/css" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="icon-fonts/elusive-icons-2.0.0/css/elusive-icons.css">
+        <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
         <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="ionic/css/ionic.min.css">
@@ -75,6 +78,9 @@
         <script type="application/javascript" src="galleria/galleria-startup.js"></script>
         <script type="application/javascript" src="webrtc/socket.io.js" data-ver="0"></script>
         <script type="application/javascript" src="webrtc/gab.websocket.js" data-ver="1"></script>
+        <script type="application/javascript" src="xdk/appdesigner/js/rest-of-space.js"></script>
+        <script type="application/javascript" src="js/index_user_scripts.js"></script>
+        <script type="application/javascript" src="xdk/ad/ionic_subpage.js"></script>
     </head>
 
     <body ng-app="myApp">
@@ -83,31 +89,56 @@
         <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
         <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
         <div class="upage" id="mainpage">
-            <div class="upage-outer">
+            <div class="upage-outer fixed-header-footer">
                 <div class="upage-content ac0 content-area vertical-col left" id="page_39_51">
 
                     <div class="galleria image-gallery-size widget uib_w_2 d-margins manicomio" data-uib="media/image_gallery" data-ver="0" data-sm-trigger="true" images-json="gallery_images/gallery_images.json">
                     </div>
                 </div>
 
-                <ion-header-bar class="bar inner-element uib_w_4 borda bar-light bar-header" data-uib="ionic/header" data-ver="0">
-                    <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
-                    <h1 class="title">header</h1>
+                <ion-header-bar class="bar inner-element uib_w_4 borda bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="left">
+                    <div class="buttons widget-container content-area horiz-area wrapping-col">
+                        <button class="button widget uib_w_12 d-margins ion button-large button-light button-outline ion-android-social-user" data-uib="ionic/button" data-ver="0" id="btn_perfil"></button>
+                    </div>
+                    <h1 class="title">GeoPromo</h1>
                     <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
                 </ion-header-bar>
             </div>
         </div>
         <div class="upage vertical-col left hidden" id="loginface">
-            <div class="widget uib_w_3 scale-image d-margins" data-uib="media/img" data-ver="0">
-                <figure class="figure-align">
-                    <img src="galleria/classic-loader.gif">
-
-                    <figcaption data-position="bottom"></figcaption>
-                </figure>
-            </div>
 
         </div>
-        <div class="upage vertical-col left hidden" id="uib_page_1"></div>
+        <div class="upage hidden" id="uib_page_1">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_30_95">
+                    <div class="widget uib_w_5 scale-image d-margins shadow_perfil circulo" data-uib="media/img" data-ver="0">
+                        <figure class="figure-align">
+                            <img src="img-perfil/pp.jpg" style="border-radius: 100%;">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="tarea widget uib_w_8 d-margins" data-uib="media/text" data-ver="0" name="uib_w_8">
+                        <div class="widget-container left-receptacle"></div>
+                        <div class="widget-container right-receptacle"></div>
+                        <div class="text-container">
+                            <h3>Augusto Fabri</h3>
+
+                            <p>Londrina - PR, 39</p>
+                        </div>
+                    </div>
+                    <button class="button widget uib_w_9 d-margins button-assertive" data-uib="ionic/button" data-ver="0">Configuração</button>
+                    <button class="button widget uib_w_10 d-margins" data-uib="ionic/button" data-ver="0">Editar Perfil</button>
+                    <button class="button widget uib_w_11 d-margins" data-uib="ionic/button" data-ver="0">Sair</button>
+                </div>
+                <ion-header-bar class="bar inner-element uib_w_6 bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="left" id="cabecao_perfil">
+                    <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+                    <h1 class="title">Perfil</h1>
+                    <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+                </ion-header-bar>
+            </div>
+        </div>
     </body>
 
 </html>
