@@ -1,8 +1,13 @@
 [
+    {
+    "image": "gallery_images/pri.png"
+  },
  {
     "image": "gallery_images/Etiqueta.png"
+  },{
+    "image": "gallery_images/tic22.png"
   }, {
-    "image": "gallery_images/freightliner.jpg"
+    "image": "gallery_images/tic2.png"
   },
   {
     "image": "gallery_images/sailing-ships.jpg"

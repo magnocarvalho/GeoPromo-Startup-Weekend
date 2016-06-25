@@ -73,6 +73,8 @@
         <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
         <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
         <script type="application/javascript" src="galleria/galleria-startup.js"></script>
+        <script type="application/javascript" src="webrtc/socket.io.js" data-ver="0"></script>
+        <script type="application/javascript" src="webrtc/gab.websocket.js" data-ver="1"></script>
     </head>
 
     <body ng-app="myApp">
@@ -87,14 +89,25 @@
                     <div class="galleria image-gallery-size widget uib_w_2 d-margins manicomio" data-uib="media/image_gallery" data-ver="0" data-sm-trigger="true" images-json="gallery_images/gallery_images.json">
                     </div>
                 </div>
-                <ion-header-bar class="bar inner-element uib_w_1 cabe cabec bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="left" id="cabeca">
+
+                <ion-header-bar class="bar inner-element uib_w_4 borda bar-light bar-header" data-uib="ionic/header" data-ver="0">
                     <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
-                    <h1 class="title" style="color = black;">GeoPromo</h1>
+                    <h1 class="title">header</h1>
                     <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
                 </ion-header-bar>
-
             </div>
         </div>
+        <div class="upage vertical-col left hidden" id="loginface">
+            <div class="widget uib_w_3 scale-image d-margins" data-uib="media/img" data-ver="0">
+                <figure class="figure-align">
+                    <img src="galleria/classic-loader.gif">
+
+                    <figcaption data-position="bottom"></figcaption>
+                </figure>
+            </div>
+
+        </div>
+        <div class="upage vertical-col left hidden" id="uib_page_1"></div>
     </body>
 
 </html>

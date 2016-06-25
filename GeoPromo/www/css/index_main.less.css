@@ -606,26 +606,7 @@ body#afui .splt {
   }
 }
 @media all {
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .vertical-col > .d-margins,
-  .vertical-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .vertical-col > .d-margins,
-  .vertical-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
+  
 }
 .sbs-container {
   display: -webkit-flex;
@@ -647,7 +628,163 @@ body#afui .splt {
 }
 @media all {
   .image-gallery-size {
-    width: 310px;
-    height: 460px;
+    width: 100px;
+    height: 400px;
   }
+}
+.figure-align {
+  display: table;
+  margin: 0px auto;
+}
+.figure-align img {
+  width: 100%;
+}
+.image-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media all {
+  .scale-image img {
+    width: 200px;
+  }
+}
+.vertical-col > ion-list.widget,
+.vertical-col > .widget.item-radio,
+.vertical-col > .widget.item-toggle,
+.vertical-col > .widget.list,
+.vertical-col > .widget.item-select,
+.vertical-col > .widget.item-checkbox,
+.vertical-col > .widget.button {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+.vertical-col > .widget.item.range,
+.vertical-col > .widget.button-bar,
+.vertical-col > .widget.tabs {
+  margin-left: 0;
+  width: 100%;
+}
+.vertical-col > .widget.item-input {
+  margin-left: 0;
+  display: inline-flex;
+  width: 100%;
+}
+.vertical-col > .widget.item-input.item-floating-label,
+.vertical-col > .widget.item-input.item-stacked-label {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+.left-receptacle {
+  float: left;
+}
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.remote {
+  width: 320px;
+  height: 240px;
+}
+.local {
+  position: relative;
+  top: -90px;
+  width: 120px;
+  height: 80px;
+}
+.chatwidget {
+  border: 1px solid black;
+}
+.webrtcinput {
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.webrtcbutton {
+  margin: 0px 10px;
+  position: relative;
+  top: 0px;
+}
+span.narrow-control {
+  display: inline-block;
+}
+span.narrow-control.hidden {
+  display: none;
+}
+label.narrow-control {
+  width: auto;
+  float: none;
+  padding-right: 1em;
+}
+label.narrow-control + * {
+  width: 100% !important;
+}
+.label-inline {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+.label-top-left,
+.label-top-right {
+  width: auto !important;
+  display: block;
+  padding: 8px 4px 0px;
+}
+.label-top-left + *,
+.label-top-right + * {
+  display: block;
+}
+.label-top-left {
+  text-align: left !important;
+}
+.label-top-right {
+  text-align: right !important;
+}
+label.narrow-control:empty {
+  display: none !important;
+}
+label.narrow-control:empty + .wide-control {
+  display: block;
+}
+#afui .narrow-control .webrtcbutton {
+  top: -8px;
+  margin: 0px 10px;
+}
+#afui .with-label label.narrow-control {
+  float: none;
+}
+#afui .with-label label.narrow-control + * {
+  display: block;
+  width: 100% !important;
+  margin-bottom: 0 !important;
+}
+#afui .with-label label.narrow-control:empty {
+  display: none;
+}
+#afui .with-label .label-inline {
+  width: 30%;
+  vertical-align: middle;
+}
+#afui .with-label .label-top-left,
+#afui .with-label .label-top-right {
+  width: auto !important;
+  display: block;
+  padding: 8px 4px 4px;
+}
+#afui .with-label .label-top-left {
+  text-align: left !important;
+}
+#afui .with-label .label-top-right {
+  text-align: right !important;
+}
+.borda {
+  border: solid 2px;
 }

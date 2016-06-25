@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "dda1cb5b-e7fc-4e3a-82e0-a7b1eee59d5d",
-      "lastModifiedDate": 1466877019935,
+      "lastModifiedDate": 1466887647450,
       "creationDate": 1466874818264
     },
     "XDK-app-designer": "true",
@@ -77,6 +77,27 @@
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin",
         "checksum": "452a4659"
+      },
+      {
+        "id": "cordova-plugin-facebook4",
+        "name": "Facebook Connect",
+        "version": "1.7.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-facebook4",
+        "gitref": "",
+        "paramvals": {
+          "APP_ID": "1728558777419207",
+          "APP_NAME": "7f5eac38ba62170d09cc534454915aa4"
+        },
+        "sourceLocation": "plugins/cordova-plugin-facebook4",
+        "selectedState": "Included",
+        "checksum": "5a1597eb",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "\n      This is the official plugin for Facebook in Apache Cordova/PhoneGap!\n\n      The Facebook plugin for Apache Cordova allows you to use the same JavaScript code in your\n      Cordova application as you use in your web application.\n      Docs: https://github.com/Wizcorp/phonegap-facebook-plugin.\n    ",
+        "data": {},
+        "dependedBy": []
       }
     ],
     "buildConfigurations": {
@@ -88,7 +109,8 @@
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "21",
           "android-installLocation": "auto",
-          "android-signed": true
+          "android-signed": true,
+          "Fullscreen": false
         },
         "isActive_": true,
         "appName_": "GeoPromo",
@@ -107,7 +129,8 @@
             "geo:*",
             "market:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -127,7 +150,8 @@
         "name_": "iOS",
         "preferences_": {
           "ios-configuration": "adhoc",
-          "deployment-target": "8.0"
+          "deployment-target": "8.0",
+          "Orientation": "landscape"
         },
         "isActive_": true,
         "appName_": "GeoPromo",
@@ -170,7 +194,7 @@
           "windows-publisher-display-name": "",
           "windows-publisher-id": ""
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "GeoPromo",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
@@ -198,7 +222,7 @@
         "runtime_": "W3C",
         "name_": "WebApp",
         "preferences_": {},
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
