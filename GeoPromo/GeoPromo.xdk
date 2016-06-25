@@ -5,9 +5,9 @@
       "type": "App Designer",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
-      "projectGuid": "5c33d748-8e96-4d5c-996f-3cdcaa756e49",
-      "lastModifiedDate": 1466874685921,
-      "creationDate": 1466859141237
+      "projectGuid": "dda1cb5b-e7fc-4e3a-82e0-a7b1eee59d5d",
+      "lastModifiedDate": 1466877019935,
+      "creationDate": 1466874818264
     },
     "XDK-app-designer": "true",
     "sourceDirectory": "www",
@@ -91,7 +91,7 @@
           "android-signed": true
         },
         "isActive_": true,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "xdk.intel.blank.ad.template.crosswalk",
         "appAccess_": {
           "mode": "whitelist",
@@ -130,7 +130,7 @@
           "deployment-target": "8.0"
         },
         "isActive_": true,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -171,7 +171,7 @@
           "windows-publisher-id": ""
         },
         "isActive_": true,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
           "mode": "whitelist",
@@ -199,7 +199,7 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -223,7 +223,7 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -247,7 +247,7 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -271,7 +271,7 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",
@@ -295,7 +295,7 @@
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "appGeoPrmo",
+        "appName_": "GeoPromo",
         "appID_": "not.yet.specified",
         "appAccess_": {
           "mode": "legacy",

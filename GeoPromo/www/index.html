@@ -5,6 +5,7 @@
   -->
 
     <head>
+        <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="ionic/css/ionic.min.css">
         <title>Blank App Designer Cordova Web App Project Template</title>
@@ -37,7 +38,6 @@
 
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
-        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
 
         <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
         <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
@@ -66,6 +66,13 @@
         <script type="application/javascript" src="marginal/marginal-position.js"></script>
         <script type="application/javascript" src="ionic/js/ionic.bundle.js"></script>
         <script type="application/javascript" src="js/index_init_services.js"></script>
+        <script type="application/javascript" src="js/index_uib_w_2_modal.js"></script>
+        <script type="application/javascript" src="js/index_uib_w_2_actionsheet.js"></script>
+        <script type="application/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="application/javascript" src="chart/chart.js"></script>
+        <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria-startup.js"></script>
     </head>
 
     <body ng-app="myApp">
@@ -75,12 +82,17 @@
         <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
         <div class="upage" id="mainpage">
             <div class="upage-outer">
-                <div class="upage-content ac0 content-area vertical-col left"></div>
-                <ion-header-bar class="bar inner-element uib_w_1 bar-energized bar-header" data-uib="ionic/header" data-ver="0">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_39_51">
+
+                    <div class="galleria image-gallery-size widget uib_w_2 d-margins manicomio" data-uib="media/image_gallery" data-ver="0" data-sm-trigger="true" images-json="gallery_images/gallery_images.json">
+                    </div>
+                </div>
+                <ion-header-bar class="bar inner-element uib_w_1 cabe cabec bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="left" id="cabeca">
                     <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
-                    <h1 class="title"></h1>
+                    <h1 class="title" style="color = black;">GeoPromo</h1>
                     <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
                 </ion-header-bar>
+
             </div>
         </div>
     </body>
